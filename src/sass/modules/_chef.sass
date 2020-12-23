@@ -1,0 +1,410 @@
+#sectiontrois
+    background-image: url("../img/main_bg.jpg")
+    max-width: 100vw
+    padding-bottom: 70px
+    padding-top: 30px
+
+#divsectiontrois
+    position: relative
+    background-color: white
+    margin-left: 120px
+    margin-right: 120px
+    margin-top: 70px
+    margin-bottom: 70px
+    text-align: center
+
+#blacktopleft
+    position: absolute
+    top: 0
+    left: 0
+
+#blacktopright
+    position: absolute
+    top: 0
+    right: 0
+
+#blackbottomleft
+    position: absolute
+    bottom: 0
+    left: 0
+
+#blackbottomright
+    position: absolute
+    bottom: 0
+    right: 0
+
+#divbooktable
+    text-align: center
+    padding-top: 70px
+    padding-bottom: 10px
+    padding-left: 300px
+    padding-right: 300px
+    img
+        padding-top: 10px
+        padding-bottom: 50px
+    h2
+        font-family: 'courgette'
+        font-size: 35px
+        span
+            font-size: 45px
+            color: #972d2d
+
+#divourblog
+    text-align: center
+    padding-top: 70px
+    padding-bottom: 10px
+    padding-left: 300px
+    padding-right: 300px
+    img
+        padding-top: 10px
+        padding-bottom: 50px
+    h2
+        font-family: 'courgette'
+        font-size: 35px
+        span
+            font-size: 45px
+            color: #972d2d
+
+// FORMULAIRE
+
+#divform
+    background-image: url("../img/book_table_bg.jpg")
+    background-size: cover
+    padding-left: 80px
+    padding-right: 80px
+    border-radius: 20px
+    margin-left: 170px
+    margin-right: 170px
+    margin-top: 50px
+    padding-top: 40px
+    padding-bottom: 40px
+    div
+        h4
+            font-size: 20px
+            color: white
+            padding-top: 20px
+            padding-bottom: 30px
+        span
+            font-size: 35px
+
+#divbuttonbook
+    button
+        background-color: #972d2d
+        color: white
+        border-radius: 25px
+        padding-left: 35px
+        padding-right: 35px
+        padding-top: 15px
+        padding-bottom: 15px
+        border: 0px
+        margin-top: 40px
+        margin-bottom: 20px
+
+.resInput
+    display: flex
+    flex-wrap: wrap
+    justify-content: space-between
+    input
+        width: 48%
+        border-radius: 12px
+        padding-top: 13px
+        padding-bottom: 13px
+        padding-left: 12px
+        margin-bottom: 10px
+    select
+        width: 48%
+        border-radius: 12px
+        padding-top: 13px
+        padding-bottom: 13px
+        padding-left: 12px
+        margin-bottom: 10px
+    #inputGroupSelect02
+        height: 54px
+    #inputGroupSelect03
+        height: 54px
+
+// BLOG
+
+#blogposts
+    display: flex
+    justify-content: space-around
+    text-align: center
+    margin-bottom: 50px
+
+#blogpostone
+    position: relative
+    margin-left: 120px
+
+#blogposttwo
+    position: relative
+    margin-right: 120px
+
+#blogelementone
+    img
+        border-radius: 20px
+        border: #d6d5d5 solid 7px
+        
+#blogelementtwo
+    img
+        border-radius: 20px
+        border: #d6d5d5 solid 7px
+
+#blogredone
+    position: absolute
+    background-color: #972d2d
+    color: white
+    padding-top: 20px
+    padding-bottom: 10px
+    padding-left: 7px
+    padding-right: 20px
+    border-radius: 20px
+    top: 240px
+    left: 60px
+    right: 60px
+    h4
+        font-size: 20px
+        span
+            font-size: 30px
+
+#blogredtwo
+    position: absolute
+    background-color: #972d2d
+    color: white
+    padding-top: 20px
+    padding-bottom: 10px
+    padding-left: 7px
+    padding-right: 20px
+    border-radius: 20px
+    top: 240px
+    left: 60px
+    right: 60px
+    h4
+        font-size: 20px
+        span
+            font-size: 30px
+
+#blogtextone
+    width: 70%
+    text-align: left
+    margin: 0 auto
+    margin-top: 50px
+    h4
+        margin-bottom: 20px
+
+#blogtexttwo
+    width: 70%
+    text-align: left
+    margin: 0 auto
+    margin-top: 50px
+    h4
+        margin-bottom: 20px
+
+
+#divbuttonknow
+    padding-bottom: 70px
+    button
+        background-color: #972d2d
+        color: white
+        border-radius: 25px
+        padding-left: 35px
+        padding-right: 35px
+        padding-top: 15px
+        padding-bottom: 15px
+        border: 0px
+        margin-top: 20px
+        margin-bottom: 20px
+
+// IPHONE X
+@media screen and (min-width:375px) and (max-width:767px)
+    #divbooktable
+        padding-left: 15px
+        padding-right: 15px
+        img
+            width: 90%
+            padding-bottom: 20px
+    #divourblog
+        padding-left: 15px
+        padding-right: 15px
+        img
+            width: 90%
+    #blogposts
+        display: flex
+        flex-direction: column
+
+    #blogpostone
+        display: flex
+        flex-direction: column
+        justify-content: center
+        margin-right: 0
+        margin-left: 0
+        margin-bottom: 50px 
+
+    #blogelementone
+        display: flex
+        flex-direction: column
+        justify-content: center
+        img
+            width: 95%
+            margin: 0 auto
+
+    #blogposttwo
+        display: flex
+        flex-direction: column
+        justify-content: center
+        margin-right: 0
+        margin-left: 0
+
+    #blogelementtwo
+        display: flex
+        flex-direction: column 
+        img
+            width: 95%
+            margin: 0 auto
+
+    #blogredone
+        padding-right: 5px
+        top: 160px
+        width: 280px
+        left: 30px
+        right: 30px
+        h4
+            font-size: 14px
+            span
+                font-size: 16px  
+                
+    #blogredtwo
+        padding-right: 5px
+        top: 160px
+        width: 280px
+        left: 30px
+        right: 30px
+        h4
+            font-size: 14px
+            span
+                font-size: 16px  
+
+    #divform
+        padding-left: 40px
+        padding-right: 40px
+        margin-left: 20px
+        margin-right: 20px
+        div
+            h4
+                font-size: 16px
+                color: white
+                padding-top: 20px
+                padding-bottom: 30px
+            span
+                font-size: 25px
+    #divsectiontrois
+        margin-left: 15px
+        margin-right: 15px
+        margin-top: 50px
+        margin-bottom: 30px
+    #blacktopleft
+        img
+            height: 60px
+    #blacktopright
+        img
+            height: 60px
+    #blackbottomleft
+        img
+            height: 60px
+    #blackbottomright
+        img
+            height: 60px
+    .resInput
+        justify-content: center
+        input
+            width: 92%
+        select
+            width: 92%
+        
+
+// IPAD
+@media screen and (min-width:768px) and (max-width:1024px)
+    #divbooktable
+        padding-left: 100px
+        padding-right: 100px
+        img
+            width: 90%
+
+    #divourblog
+        padding-left: 100px
+        padding-right: 100px
+        img
+            width: 90%
+
+    #blogposts
+        display: flex
+        flex-direction: column
+
+    #blogpostone
+        display: flex
+        flex-direction: column
+        justify-content: center
+        margin-right: 0
+        margin-left: 0
+        margin-bottom: 50px
+    
+    #blogelementone
+        display: flex
+        flex-direction: column
+        img
+            width: 90%
+            margin: 0 auto
+
+    #blogposttwo
+        display: flex
+        flex-direction: column
+        justify-content: center
+        margin-right: 0
+        margin-left: 0 
+
+    #blogelementtwo
+        display: flex
+        flex-direction: column
+        img
+            width: 90%
+            margin: 0 auto
+
+    #blogredone
+        h4
+            font-size: 18px
+            span
+                font-size: 28px  
+                     
+    #blogredtwo
+        h4
+            font-size: 18px
+            span
+                font-size: 28px
+    
+    #divform
+        padding-left: 40px
+        padding-right: 40px
+        margin-left: 20px
+        margin-right: 20px
+        div
+            h4
+                font-size: 25px
+                span
+                    font-size: 30px
+    .resInput
+        justify-content: center
+        input
+            width: 45%
+            padding-top: 13px
+            padding-bottom: 13px
+            padding-left: 12px
+            margin-bottom: 10px
+            margin-left: 5px
+            margin-right: 5px
+        select
+            width: 45%
+            padding-top: 13px
+            padding-bottom: 13px
+            padding-left: 12px
+            margin-bottom: 10px
+            margin-left: 5px
+            margin-right: 5px
